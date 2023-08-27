@@ -402,11 +402,15 @@ header nav a{
     letter-spacing: 1.6px;
     border-bottom: 1px solid transparent;
     transition: border 500ms ease-in-out;
+    height: fit-content;
 }
 header .logo>a{
     font-family: 'International', sans-serif;
     font-size: 25px;
     font-weight: 400;
+}
+header .logo{
+    height: 50px;
 }
 header nav a:hover{
     border-bottom: 1px solid #fff;
