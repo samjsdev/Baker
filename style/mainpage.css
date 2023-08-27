@@ -44,3 +44,12 @@ main{
 .about-section .about-box{
     border: 1px solid #DEB3A8;
 }
+.about-box .cards{
+    transform: rotate(-14.819deg);
+    position: relative;
+    right: 100px;
+}
+.about-box img{
+    width: 305px;
+    
+}
