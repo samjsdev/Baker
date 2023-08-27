@@ -1,14 +1,19 @@
 body{
     background: #FFF8F6;
     margin: 0px;
+    color: #894E3F;
 }
 @font-face {
     font-family: International;
     src: url(./international.regular.ttf);
 }
+@font-face {
+    font-family: quentin;
+    src: url(./Quentin.woff);
+}
 *{
-    margin: 0px;
     font-family: 'Heebo', sans-serif;
+    box-sizing: border-box;
 }
 /*margin*/
 .mx-auto{
@@ -90,6 +95,9 @@ body{
 }
 .mb-16{
     margin-bottom: 16px;
+}
+.mb-20{
+    margin-bottom: 20px;
 }
 .mb-24{
     margin-bottom: 24px;
@@ -403,3 +411,19 @@ header .logo>a{
 header nav a:hover{
     border-bottom: 1px solid #fff;
 }
+.q-title{
+    color: #894E3F;
+    text-align: center;
+    font-family: 'Quentin', sans-serif;
+    font-size: 33.744px;
+    font-style: normal;
+    font-weight: 400;
+}
+.outline-btn{
+    border-radius: 40px;
+    border: 0.711px solid #894E3F;
+    padding: 23px 51px;
+    background-color: transparent;
+    color: #894E3F;
+}
+

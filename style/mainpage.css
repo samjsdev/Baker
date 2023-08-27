@@ -1,0 +1,46 @@
+main{
+    max-width: 1160px;
+    margin: 0 auto;
+}
+.hero-section{
+    margin-top: 156px;
+    gap: 126px;
+}
+.left-hero{
+    padding-top:157px ;
+}
+.left-hero span{
+    font-size: 16px;
+    font-weight: 300;
+}
+.left-hero h1{
+    font-family: 'International', sans-serif;
+    font-size: 48px;
+    font-weight: 300;
+}
+.left-hero p{
+    font-family: Heebo;
+    font-size: 20px;
+}
+.right-hero{
+    gap: 25px;
+}
+ .cards{
+    padding: 13px 12.5px  0px 12.5px;
+    border: 0.874px solid #FFF;
+    background: linear-gradient(137deg, #FFF 0%, #FFF 100%);
+    box-shadow: 35.57959747314453px 19.605083465576172px 67.52862548828125px 0px rgba(137, 78, 63, 0.30);
+}
+.right-hero .cards>p{
+    text-align: center;
+    font-family: 'Quentin', sans-serif;
+    font-size: 33px;
+    margin: 0px;
+}
+.about-section h2{
+    font-family: 'International', sans-serif;
+    font-size: 52.369px;
+}
+.about-section .about-box{
+    border: 1px solid #DEB3A8;
+}
