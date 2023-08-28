@@ -1,0 +1,17 @@
+.about-container .cards{
+    transform: rotate(-14.819deg);
+    position: relative;
+    right: 100px;
+    height: 368px;
+}
+.aboutme{
+    max-width: 948px;
+    border: 1px solid #DEB3A8;
+    margin: 0px auto;
+    margin-bottom: 158px;
+}
+h1{
+    font-family: 'International', sans-serif;
+    font-size: 52.369px;
+    margin-top: 192px;
+}
