@@ -46,5 +46,173 @@ main{
 }
 .about-box img{
     width: 305px;
-    
+
+}
+/*footer*/
+.footer{
+    background: rgba(137, 78, 63, 0.15);
+    margin: 0 auto;
+    gap: 80px;
+}
+.f-gap{
+    gap: 80px;
+}
+.f-gap ul li{
+    text-align: left;
+}
+.f-logo a{
+    color: #894E3F;
+    text-align: center;
+    font-family: International;
+    font-size: 25.671px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 97.664%; /* 25.071px */
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.f-gap li a{
+    color: #894E3F;
+font-family: Heebo;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 2.2;
+letter-spacing: 1.6px;
+text-transform: uppercase;
+}
+.w-700{
+    width: 700px;
+    margin: 0 auto;
+}
+/*footer end*/
+
+/*contact*/
+.hp-title h3{
+    color: #894E3F;
+    text-align: center;
+    font-family: International;
+    font-size: 52.369px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 112.664%; /* 59.001px */
+    text-transform: uppercase;
+}
+.contact-section span{
+    color: #894E3F;
+    text-align: center;
+    font-family: Heebo;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.32px;
+}
+.contact-section{
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+/*end*/
+
+/*testimonial section*/
+.testimonial-section{
+    background-image: url('../images/testimonial-bg.svg');
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+}
+.w-900{
+    width: 900px;
+    margin: 0 auto;
+}
+.test-card .tm-outline{
+    border-radius: 18.314px;
+    width: 372px;
+    margin-bottom: 32px;
+background: #FFF;
+box-shadow: 21.123252868652344px 11.639344215393066px 40.0910758972168px 0px rgba(137, 78, 63, 0.30);
+padding: 45px;
+text-align: center;
+}
+.test-card2 .tm-outline{
+    border-radius: 18.314px;
+    width: 460px;
+    margin-bottom: 32px;
+background: #FFF;
+box-shadow: 21.123252868652344px 11.639344215393066px 40.0910758972168px 0px rgba(137, 78, 63, 0.30);
+padding: 64px;
+text-align: center;
+}
+/*end*/
+/*menu section*/
+.menu-txt h2{
+    color: #763B2C;
+    font-family: International;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    margin: 40px 0px;
+}
+.menu-txt ul li{
+    color: #894E3F;
+font-family: Heebo;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 1.6px;
+text-transform: uppercase;
+text-align: left;
+list-style-type: disc !important;
+margin: 24px 0px;
+}
+.menu-section{
+    border: 0.924px solid #DEB3A8;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 0px 64px;
+}
+.vertical-line{
+    height: 100vh;
+    border: 0.924px solid #DEB3A8;
+}
+/*end*/
+/*contact us*/
+.w-520{
+    width: 520px;
+    margin: 0 auto;
+}
+input[type=number] {
+    background-color: transparent;
+    padding: 12px 20px;
+    border: 1px solid rgba(203, 156, 145, 0.49);
+    font-family: Heebo;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    width: 100%;
+    margin: 8px 0px;
+}
+input[type=text] {
+    background-color: transparent;
+    padding: 12px 20px;
+    border: 1px solid rgba(203, 156, 145, 0.49);
+    font-family: Heebo;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    width: 100%;
+    margin: 8px 0px;
+}
+::placeholder{
+    color: rgba(137, 78, 63, 0.52);
+font-family: Heebo;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
 }
