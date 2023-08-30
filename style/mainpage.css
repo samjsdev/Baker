@@ -180,7 +180,7 @@ text-align: center;
 /*end*/
 /*menu section*/
 .menu-txt h2{
-    color: #763B2C;
+    color: #000;
     font-family: International;
     font-size: 24px;
     font-style: normal;
@@ -190,8 +190,24 @@ text-align: center;
     text-transform: uppercase;
     margin: 40px 0px;
 }
+.w-960{
+    width: 959px;
+    margin: 0 auto;
+    text-align: left;
+    padding-top: 32px;
+    padding-bottom: 32px;
+} 
+.w-960 p{
+    color: #2C2C2C;
+font-family: Heebo;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 161.664%; /* 25.866px */
+letter-spacing: 0.32px;
+}
 .menu-txt ul li{
-    color: #894E3F;
+    color: #343434;
 font-family: Heebo;
 font-size: 16px;
 font-style: normal;
@@ -204,14 +220,17 @@ list-style-type: disc !important;
 margin: 24px 0px;
 }
 .menu-section{
-    border: 0.924px solid #DEB3A8;
+    border: 0.924px solid #D6CCC9;
     width: 1000px;
     margin: 0 auto;
     padding: 0px 64px;
 }
 .vertical-line{
-    height: 100vh;
-    border: 0.924px solid #DEB3A8;
+    height: 100%;
+    border: 0.924px solid #D6CCC9;
+}
+.menu-card{
+   transform: translate(0px, -70px);
 }
 /*end*/
 /*contact us*/
