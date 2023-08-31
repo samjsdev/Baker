@@ -10,3 +10,26 @@ nav.addEventListener("click",function(e){
         },150)
     }
 })
+
+//gallery
+
+
+function enlargeImage(img) {
+  const overlay = document.getElementById("overlay");
+  const enlargedContainer = document.getElementById("enlargedContainer");
+  const enlargedImg = document.getElementById("enlargedImg");
+
+  enlargedImg.src = img.src;
+  overlay.style.display = "block";
+  enlargedContainer.classList.add("active");
+  document.body.style.overflow = "hidden"; // Disable scrolling
+}
+
+function closeEnlargedImage() {
+  const overlay = document.getElementById("overlay");
+  const enlargedContainer = document.getElementById("enlargedContainer");
+
+  overlay.style.display = "none";
+  enlargedContainer.classList.remove("active");
+  document.body.style.overflow = "auto"; // Enable scrolling
+}
