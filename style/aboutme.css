@@ -6,12 +6,18 @@
 }
 .aboutme{
     max-width: 948px;
-    border: 1px solid #DEB3A8;
+    border: 1px solid #CCC;
     margin: 0px auto;
     margin-bottom: 158px;
+    padding: 0px 24px;
 }
 h1{
     font-family: 'International', sans-serif;
     font-size: 52.369px;
     margin-top: 192px;
+}
+p{
+    color: #2C2C2C;
+    font-weight: 300;
+    font-size: 16px;
 }
