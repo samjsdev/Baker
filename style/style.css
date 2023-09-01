@@ -421,6 +421,9 @@ header .logo>a{
 }
 header .logo{
     height: 50px;
+} 
+header .logo>div{
+    display: none;
 }
 header nav a:hover{
     border-bottom: 1px solid #fff;
