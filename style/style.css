@@ -442,7 +442,9 @@ header nav a:hover{
     background-color: transparent;
     color: #000000;
 }
-
+button{
+    cursor: pointer;
+}
 .cards{
     padding: 13px 12.5px  0px 12.5px;
     border: 0.874px solid #FFF;
