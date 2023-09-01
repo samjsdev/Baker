@@ -280,7 +280,9 @@ font-weight: 400;
     min-height: 100vh;
   
   }
-
+  .gallery-section{
+    margin-top: 150px;
+  }
   .image-container {
     position: relative;
     margin: 10px;
