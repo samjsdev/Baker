@@ -87,10 +87,6 @@ line-height: 2.2;
 letter-spacing: 1.6px;
 text-transform: uppercase;
 }
-.w-700{
-    width: 700px;
-    margin: 0 auto;
-}
 .foot-top{
     padding: 16px;
     background: #303030;
@@ -155,10 +151,6 @@ textarea {
    background-size: cover;
    margin-top: 164px;
 }
-.w-900{
-    width: 900px;
-    margin: 0 auto;
-}
 .test-card .tm-outline{
     border-radius: 18.314px;
     width: 372px;
@@ -189,6 +181,9 @@ text-align: center;
     letter-spacing: 2.4px;
     text-transform: uppercase;
     margin: 40px 0px;
+}
+.menu-sections{
+    margin: 64px 0px;
 }
 .w-960{
     width: 959px;
@@ -318,7 +313,20 @@ font-weight: 400;
   display: block;
   top: 50%;
 }
-
+.enlarged-image.active{
+    animation: pushdown 300ms ease-in 0ms 1;
+   
+  }
+  
+  @keyframes pushdown {
+    0%{
+      top:0%;
+    }
+   
+    100%{
+      top:40%;
+    }
+  }
 /* .enlarged-image {
   display: none;
   position: fixed;

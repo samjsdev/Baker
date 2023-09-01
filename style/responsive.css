@@ -1,0 +1,51 @@
+@media only screen and (min-width:1000px){
+    .w-900{
+        width: 900px;
+        margin: 0 auto;
+    }
+    .w-700{
+        width: 700px;
+        margin: 0 auto;
+    }
+}
+@media only screen and (max-width: 580px){
+    .w-900, .w-700{
+        width: 100%;
+    }
+    .cont-img{
+        display: none;
+    }
+    .hp-title h3, h1 {
+        font-size: 16px;
+    }
+    .contactus-section .gap-32{
+        gap: 0px;
+    }
+    .contactus-section {
+        margin-top: 40px;
+        margin-bottom: 64px;
+        padding: 24px;
+    }
+    .contact-btn {
+        font-size: 12px;
+        padding: 12px 24px;
+    }
+    ::placeholder{
+        font-size: 12px;
+    }
+    .f-gap li a{
+        font-size: 10px;
+    }
+    .f-gap{
+        gap: 0px;
+    }
+    .foot-top a{
+        font-size: 10px;
+    }
+    .menu-card img{
+        display: none;
+    }
+    .w-960 p {
+        font-size: 12px !important;
+    }
+}
