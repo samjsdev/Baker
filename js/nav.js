@@ -11,6 +11,15 @@ nav.addEventListener("click",function(e){
     }
 })
 
+//header
+
+let burgerbtn=document.querySelector(".burger-icon")
+let header=document.querySelector("header")
+burgerbtn.addEventListener("click",function(){
+  header.classList.toggle("mobside-open")
+  document.querySelector("body").classList.toggle("noscroll")
+})
+
 //gallery
 
 
