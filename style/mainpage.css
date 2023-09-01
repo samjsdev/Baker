@@ -182,15 +182,8 @@ text-align: center;
     text-transform: uppercase;
     margin: 40px 0px;
 }
-.menu-sections{
+.menu__sec{
     margin: 64px 0px;
-}
-.w-960{
-    width: 959px;
-    margin: 0 auto;
-    text-align: left;
-    padding-top: 32px;
-    padding-bottom: 32px;
 } 
 .w-960 p{
     color: #2C2C2C;
