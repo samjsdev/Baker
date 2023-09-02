@@ -112,6 +112,9 @@
         .foot-top a{
             font-size: 10px;
         }
+        .foot-top{
+            gap: 16px;
+        }
         .w-960 p {
             font-size: 12px !important;
             text-align: left;
@@ -247,7 +250,7 @@
         .right-hero .cards>p{
             font-size: 20px;
         }
-        .hp-title button{
+        .hp-title .content-button{
             font-size: 16px;
             padding: 0px;
         }
@@ -259,5 +262,13 @@
         }
         .pt-md-24{
            padding: 0px 24px;
+        }
+        .foot-logo-icon img{
+            height: 10px;
+            width: 10px;
+        }
+        .foot-logo-icon{
+           
+            gap: 4px;
         }
     }
