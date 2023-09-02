@@ -458,6 +458,16 @@ body.left{
     transition: transform 150ms ease-in-out;
     animation: loadleft 150ms ease-in-out 1;
 }
+.sidebar-overlay{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.4);
+    visibility: none;
+    
+}
+
 li{
     list-style-type: none;
 }

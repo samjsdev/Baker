@@ -158,4 +158,8 @@
     nav>a{
         margin: 20px 0px;
     }
+    body.noscroll .sidebar-overlay{
+    visibility: visible;
+    z-index: 9;
+    }
     }
