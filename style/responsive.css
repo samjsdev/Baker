@@ -262,6 +262,32 @@
             margin-top: 120px;
         }
         .pt-md-24{
-           padding: 0px 24px;
+            padding: 0px 24px;
+        }
+        header .logo a>img{
+            width: 70%;
+        }
+        .testimonial-section{
+            padding: 0px 24px;
+        }
+        .testimonial-section .d-flex{
+            flex-direction: column;
+        }
+        .test-card .tm-outline{
+            width: 100%;
+            padding: 24px;
+        }
+        .test-card2 .tm-outline{
+            width: 100%;
+            padding: 32px;
+        }
+        .test-card2 span{
+            font-size: 12px;
+        }
+        .test-card span{
+            font-size: 12px;
+        }
+        .testimonial-section .outline-btn{
+            display: none;
         }
     }
