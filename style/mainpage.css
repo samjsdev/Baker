@@ -460,3 +460,13 @@ button{
     .gallery-section .cards:hover{
             transform: rotate(-14.819deg);
     }
+
+    /* contact */
+    .contact-form{
+        width: 60%;
+    }
+    iframe {
+    width: 100%;
+    height: 1350px; /* Set an appropriate height or use other units as needed */
+    border: none; /* To remove the iframe border */
+}
