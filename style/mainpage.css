@@ -453,3 +453,10 @@ button{
   a{
     text-decoration: none;
   }
+  .gallery-section .cards{
+        padding: 9px 9px 40px 9px;
+        transition: transform 350ms ease-in;
+  }
+    .gallery-section .cards:hover{
+            transform: rotate(-14.819deg);
+    }
